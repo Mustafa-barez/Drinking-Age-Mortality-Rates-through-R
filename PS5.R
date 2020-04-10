@@ -1,4 +1,4 @@
-#Program taking some code and analyzing it using Rmarkdown
+#Program taking some code and analyzing data using Regression Discontinuity
 #Libraries and packages
 library(foreign)
 library(rdd)
