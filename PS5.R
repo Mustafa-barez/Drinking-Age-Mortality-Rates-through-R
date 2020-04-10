@@ -6,7 +6,7 @@ library(dplyr)
 install.packages('dplyr')
 
 #Extracting deathrate data file and naming it data
-data <- read.csv(file.choose(), header=TRUE)
+data <- read.csv("C:\deathrate", header=TRUE)
 data
 
 #Summary statistics of agecell column and all column in data file
