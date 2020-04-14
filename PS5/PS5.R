@@ -49,9 +49,9 @@ diff_in_means
 #Displays Scatterplot plot with Regression Discontinuity Design cut-off and trend lines 
 data %>% 
         ggplot(aes(x = age+21,
-                   y = all)) +
+                    y = all)) +
         geom_point(alpha = 2, 
-                   na.rm = TRUE) +
+                    na.rm = TRUE) +
         geom_smooth(data = data %>% filter(agecell < 21), 
                     method='lm',
                     color = "black") +
