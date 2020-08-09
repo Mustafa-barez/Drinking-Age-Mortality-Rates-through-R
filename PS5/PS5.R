@@ -1,4 +1,4 @@
-#Program taking some code and analyzing it using Rmarkdown
+#Analyzing Mortality Rates with Drinking Age using Rmarkdown
 #Libraries and packages
 library(foreign)
 library(rdd)
